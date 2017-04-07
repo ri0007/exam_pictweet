@@ -46,7 +46,16 @@ group :development, :test do
   gem 'sprockets', '2.11.0'
   gem 'kaminari'
   gem 'devise'
+  gem "rspec-rails", "~> 3.1.0"
+  gem 'factory_girl_rails', '~> 4.2.1'
 end
 
+group :test do
+  gem 'faker', '~> 1.1.2'
+  gem 'capybara'
+  gem 'database_cleaner', '~> 1.0.1'
+  gem 'launchy', '~> 2.3.0'
+  gem 'selenium-webdriver', '~>2.45.0'
+end
 
 
